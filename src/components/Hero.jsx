@@ -6,18 +6,20 @@ import HeroBgAnimation from "../HeroBgAnimation"
 import {Tilt} from "react-tilt"
 import {motion} from "framer-motion"
 import { headContainerAnimation, headContentAnimation, headTextAnimation } from "../utils/motion";
+import StyledStarCanvas from "./canvas/star";
+
 
 export default function Hero() {
   return (
     <React.Fragment>
   <div
     className="heroContainer bg-gray-900 flex justify-center items-center px-6 md:px-10 py-16 relative text-white"
-    style={{
-      clipPath: "polygon(0 0, 100% 0%, 100% 100%, 70% 95%, 0 100%)",
-    }}
+    // style={{
+    //   clipPath: "polygon(0 0, 100% 0%, 100% 100%, 70% 95%, 0 100%)",
+    // }}
   >
    <div className="absolute right-0 bottom-0 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full max-w-[1240px] justify-end flex">
-
+      <StyledStarCanvas />
       <HeroBgAnimation />
     </div>
     <motion.div {...headContainerAnimation}>
@@ -32,7 +34,7 @@ export default function Hero() {
         </h2>
        
 
-        <p className="font-semibold text-lg inline-flex">
+        <div className="font-semibold text-lg inline-flex">
           I am a
           <span className="text-[#5f78f4] pl-2">
             <Typewriter
@@ -43,7 +45,7 @@ export default function Hero() {
               }}
             />
           </span>
-        </p>
+        </div>
       </motion.div>
       <motion.div {...headContentAnimation}>
         <p className="text-sm md:text-base leading-relaxed max-w-md text-gray-300">
@@ -61,9 +63,11 @@ export default function Hero() {
 
       {/* Right Side */}
       <div className="heroRight w-full md:w-1/2 order-1 md:order-2 flex justify-end items-end z-10">
+      <motion.div {...headContentAnimation}>
       <Tilt>
          <img src={devPic} alt="Neha Rani" className="w-full" />
          </Tilt>
+         </motion.div>
       </div>
     </div>
     </motion.div>

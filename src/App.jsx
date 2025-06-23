@@ -4,6 +4,8 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import { BrowserRouter, Router } from "react-router-dom";
 import Hero from "./components/Hero";
+import Skiils from "./components/Skiils";
+import Experience from "./components/Experience";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Hero />
+        <Skiils />
+        <Experience />
       </BrowserRouter>
     </ThemeProvider>
   );
