@@ -22,7 +22,7 @@ function Star(props) {
         <PointMaterial
           transparent
           color="#f272c8" 
-          size={0.004}
+          size={0.003}
           sizeAttenuation
           depthWrite={false}
         />

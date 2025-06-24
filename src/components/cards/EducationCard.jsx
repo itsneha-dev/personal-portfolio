@@ -1,7 +1,7 @@
 import React from 'react'
 import {VerticalTimelineElement } from 'react-vertical-timeline-component'
 
-export default function ExperienceCard({ experience }) {
+export default function EducationCard({ education }) {
   return (
     <VerticalTimelineElement
       icon={
@@ -12,8 +12,8 @@ export default function ExperienceCard({ experience }) {
             borderRadius: "50%",
             objectFit: "cover",
           }}
-          src={experience.img}
-          alt={experience.img}
+          src={education.img}
+          alt={education.img}
         />
       }
       contentStyle={{
@@ -28,38 +28,31 @@ export default function ExperienceCard({ experience }) {
       contentArrowStyle={{
         borderRight: "7px solid rgba(255,255,255, 0.3)",
       }}
-      date={<span className="text-sm md:text-base text-gray-400">{experience.date}</span>}
+      date={<span className="text-sm md:text-base text-gray-400">{education.date}</span>}
     >
       <div className="flex flex-col md:flex-row gap-4 text-left">
         <img
           className="h-16 w-16 md:h-20 md:w-20 rounded-xl object-contain border border-gray-700"
-          src={experience.img}
-          alt={experience.img}
+          src={education.img}
+          alt={education.img}
         />
         <div className="flex flex-col">
-          <div className="text-lg md:text-xl font-bold text-gray-100">{experience.role}</div>
-          <div className="text-md md:text-lg text-gray-400">{experience.company}</div>
-           <div className=''>{experience.date}</div>
+          <div className="text-lg md:text-xl font-bold text-gray-100">{education.school}</div>
+          <div className="text-md md:text-lg text-gray-400">{education.degree}</div>
+           <div className=''>{education.date}</div>
            </div>
             </div>
 
-          {experience.desc && (
-            <p className="mt-2 text-sm md:text-base text-left text-gray-400">{experience.desc}</p>
-          )}
-
-          {experience.skills?.length > 0 && (
+          {education?.grade&& (
             <div className="mt-3 flex flex-wrap gap-2 items-center">
-              <span className="font-semibold text-sm text-gray-300">Skills:</span>
-              {experience.skills.map((skill, index) => (
-                <span
-                  key={`skill-${index}`}
-                  className="text-xs md:text-sm text-white rounded-full shadow-sm"
-                >
-                  . {skill}
-                </span>
-              ))}
+              <span className="font-semibold text-sm text-gray-300">Grade:</span>
+                   {education.grade}
             </div>
           )}
+           {education.desc && (
+            <p className="mt-2 text-sm md:text-base text-left text-gray-400">{education.desc}</p>
+          )}
+
        
     </VerticalTimelineElement>
   );

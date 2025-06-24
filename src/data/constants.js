@@ -1,3 +1,7 @@
+import cZentrixLogo from "../assets/c-zentrixLogo.jpg"
+import omSoftLogo from "../assets/omSoftLogo.jpg"
+import welKinLogo from "../assets/welKinLogo.jpg"
+
 export const Bio = {
   name: "Neha Rani",
   roles: ["Front-End Developer", "Web Developer", "UI Developer"],
@@ -80,7 +84,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
+    img: cZentrixLogo,
     role: "Jr. Web Developer",
     company: "C-Zentrix",
     date: "April 2023 – Present",
@@ -99,7 +103,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
+    img: welKinLogo,
     role: "Website Designer",
     company: "Welkin Ring Digital Solutions",
     date: "June 2022 – March 2023",
@@ -117,7 +121,7 @@ export const experiences = [
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+    img: omSoftLogo,
     role: "WordPress Developer",
     company: "Om Soft Solutions",
     date: "July 2021 – July 2022",
@@ -152,15 +156,6 @@ export const education = [
     grade: "88.2%",
     desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
     degree: "ISC(XII), Science with Computer",
-  },
-  {
-    id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2017 - Apr 2019",
-    grade: "92.3%",
-    desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-    degree: "ICSC(X), Science with Computer",
   },
 ];
 

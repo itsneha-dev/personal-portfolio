@@ -4,7 +4,7 @@ import { Tilt } from 'react-tilt';
 
 export default function Skills() {
   return (
-   <div id="skills" className="flex flex-col items-center justify-center py-20 bg-gray-900 text-white relative z-10">
+   <div id="skills" className="flex flex-col items-center justify-center py-20 text-white relative z-10">
   <div className="w-full max-w-[1100px] text-center mb-12 px-4">
     <h3 className="text-3xl md:text-4xl font-bold text-white mb-4">Skills</h3>
     <p className="text-md md:text-lg text-gray-300">

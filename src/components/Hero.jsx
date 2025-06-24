@@ -2,11 +2,11 @@ import React from "react";
 import Typewriter from "typewriter-effect"
 import { Bio } from "../data/constants";
 import devPic from "../assets/devPic.png";
-import HeroBgAnimation from "../HeroBgAnimation"
 import {Tilt} from "react-tilt"
 import {motion} from "framer-motion"
 import { headContainerAnimation, headContentAnimation, headTextAnimation } from "../utils/motion";
 import StyledStarCanvas from "./canvas/star";
+import HeroBgAnimation from "../HeroBgAnimation/HeroBgAnimation";
 
 
 export default function Hero() {
