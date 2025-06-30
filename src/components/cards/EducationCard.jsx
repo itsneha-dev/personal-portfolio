@@ -1,5 +1,6 @@
 import React from 'react'
 import {VerticalTimelineElement } from 'react-vertical-timeline-component'
+import ProjectCard from './ProjectCard';
 
 export default function EducationCard({ education }) {
   return (
@@ -32,14 +33,14 @@ export default function EducationCard({ education }) {
     >
       <div className="flex flex-col md:flex-row gap-4 text-left">
         <img
-          className="h-16 w-16 md:h-20 md:w-20 rounded-xl object-contain border border-gray-700"
+          className="h-16 w-16 md:h-15 md:w-15 rounded-xl object-contain border border-gray-700"
           src={education.img}
           alt={education.img}
         />
         <div className="flex flex-col">
-          <div className="text-lg md:text-xl font-bold text-gray-100">{education.school}</div>
-          <div className="text-md md:text-lg text-gray-400">{education.degree}</div>
-           <div className=''>{education.date}</div>
+          <div className="text-lg md:text-lg font-semibold text-gray-400">{education.college}</div>
+          <div className="text-md md:text-md text-gray-400">{education.degree}</div>
+           <div className='text-sm'>{education.date}</div>
            </div>
             </div>
 
@@ -53,7 +54,6 @@ export default function EducationCard({ education }) {
             <p className="mt-2 text-sm md:text-base text-left text-gray-400">{education.desc}</p>
           )}
 
-       
     </VerticalTimelineElement>
   );
 }

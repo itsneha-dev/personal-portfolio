@@ -1,12 +1,71 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Personal Developer Portfolio
 
-Currently, two official plugins are available:
+This project serves as a template to create your own developer portfolio, featuring an interactive 3D design powered by Three.js, a responsive layout with Tailwind CSS, and a React-based architecture for smooth navigation and high performance.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 👩‍💻 Live Demo
+
+Check out the live version of the portfolio here: 
+
+ 🔗[https://itsneha-dev.netlify.app](https://itsneha-dev.netlify.app)
+
+
+
+## Features
+
+-  ⚡ Smooth animations with Three.js
+- 🎨 Styled with Tailwind CSS
+- 🧭 Responsive design (mobile + desktop)
+- 📂 Project showcase section
+- 📞 Contact form with email integration
+
+
+
+## Tech Stack
+
+**React.js** – Front-end JavaScript library for building UI
+
+**Three.js** – JavaScript 3D library for rendering 3D graphics
+
+**Tailwind CSS** – Utility-first CSS framework for styling
+
+**Vite** – Tailwind plugin for Vite integration
+
+**Framer Motion** – Animation library for React
+
+**Google Forms** – Used for contact form handling
+
+
+## Getting started
+
+Clone the project
+
+```bash
+  git clone git@github.com:itsneha-dev/personal-portfolio.git
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install project dependencies
+
+```bash
+ npm install --legacy-peer-deps
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+Open your browser at 
+
+```bash
+  `http://localhost:5173`
+```
+

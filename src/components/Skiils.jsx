@@ -8,7 +8,7 @@ export default function Skills() {
   <div className="w-full max-w-[1100px] text-center mb-12 px-4">
     <h3 className="text-3xl md:text-4xl font-bold text-white mb-4">Skills</h3>
     <p className="text-md md:text-lg text-gray-300">
-      Here's a categorized view of my frontend development skills over the past 3+ years.
+      A categorized showcase of my front-end development skills built over 4 years.
     </p>
   </div>
 
