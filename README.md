@@ -9,7 +9,7 @@ This project serves as a template to create your own developer portfolio, featur
 
 Check out the live version of the portfolio here: 
 
- 🔗[https://itsneha-dev.netlify.app](https://itsneha-dev.netlify.app)
+ 🔗[https://neha-dev.netlify.app](https://neha-dev.netlify.app)
 
 
 
