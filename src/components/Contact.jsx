@@ -1,6 +1,6 @@
 import React, { useRef, useState, useTransition } from 'react';
 import 'react-vertical-timeline-component/style.min.css';
-import EarthCanvas from './canvas/earth';
+
 
 export default function Contact() {
   const formRef = useRef();
