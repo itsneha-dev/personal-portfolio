@@ -3,7 +3,7 @@ import {VerticalTimeline} from "react-vertical-timeline-component"
 import 'react-vertical-timeline-component/style.min.css';
 import { education } from '../data/constants'
 import EducationCard from './cards/EducationCard';
-import EathCanvas from './canvas/earth';
+import EathCanvas from './canvas/Earth';
 
 
 export default function Education() {
