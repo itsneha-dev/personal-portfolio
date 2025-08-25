@@ -1,6 +1,6 @@
 import cZentrixLogo from "../assets/c-zentrixLogo.jpg"
 import omSoftLogo from "../assets/omSoftLogo.jpg"
-import welKinLogo from "../assets/welKinLogo.jpg"
+import welKinLogo from "../assets/welkinLogo.jpg"
 import davim from "../assets/davim.jpg"
 import ignou from "../assets/ignou.jpg"
 import agentDesktop from "../assets/agent-desktop.jpg"
